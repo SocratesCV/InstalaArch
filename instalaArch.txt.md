@@ -11,7 +11,7 @@ sudo dd bs=4M if=archlinux-2023.04.01-x86_64.iso of=/dev/sdb conv=fsync oflag=di
 # Aplicaciones consola:
 sudo pacman -S imagemagick neofecth
 
-##Neofetch
+## Neofetch
 Temas:https://github.com/Chick2D/neofetch-themes
 Fuente:https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/NerdFontsSymbolsOnly.zip
 ~/.local/share/Font
@@ -72,13 +72,13 @@ sudo pacman -S vlc
 Reproductor audio y video
 
 
-#AMD #Drivers #AMDGPU
+# AMD # Drivers # AMDGPU
 sudo pacman -S xf86-video-amdgpu vulkan-radeon lib32-vulkan-radeon opencl-mesa libva-mesa-driver lib32-libva-mesa-driver mesa-vdpau lib32-mesa-vdpau --needed
 
-#Intel #Drivers #IntelGPU
+# Intel # Drivers # IntelGPU
 sudo pacman -S xf86-video-intel vulkan-intel lib32-vulkan-intel opencl-mesa libva-mesa-driver lib32-libva-mesa-driver mesa-vdpau lib32-mesa-vdpau --needed
 
-#Nvidia #Drivers #NvidiaGPU
+# Nvidia # Drivers # NvidiaGPU
 sudo pacman -S nvidia nvidia-settings nvidia-utils lib32-nvidia-utils cuda opencl-nvidia  lib32-opencl-nvidia vdpauinfo clinfo  --needed
 
 
@@ -90,9 +90,9 @@ git https://github.com/SocratesCV/ImagenInstagram.git ./imágenes/iminstagram/
 
 
 
-#VARIOS
+# VARIOS
 
-#Pacman
+## Pacman
 sudo pacman -Syyu
 sudo pacman -S
 sudo pacman -R
